@@ -1,8 +1,6 @@
 import { useState } from 'react'
-
-import viteLogo from '/vite.svg'
 import './App.css'
-import ChatBot from './chatBot'
+import ChatBot from './Components/chatBot.jsx'
 import dayjs from 'dayjs';
 function App() {
   const [time , setTime] = useState(dayjs().format('HH:mm:ss'));

@@ -1,6 +1,6 @@
 import React from "react";
-import userIcon from "./assets/user.png";
-import robotIcon from "./assets/robot.png";
+import userIcon from "../assets/user.png";
+import robotIcon from "../assets/robot.png";
 
 function ChatMessage({ messages }) {
     const messageEndRef = React.useRef(null);

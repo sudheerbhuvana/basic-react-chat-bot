@@ -4,10 +4,7 @@ import ChatMessage from "./ChatMessage";
 
 function ChatBot() {
   const [messages, setMessages] = useState([
-    { message: "Hello, How are you?", sender: "user", id: crypto.randomUUID() },
-    { message: "I'm fine, thank you!", sender: "bot", id: crypto.randomUUID() },
-    { message: "What is today's date?", sender: "user", id: crypto.randomUUID() },
-    { message: "Today's date is September 30, 2025.", sender: "bot", id: crypto.randomUUID() },
+    { message: "Hello! How can I assist you today?", sender: "bot", id: crypto.randomUUID() }
   ]);
 
 
